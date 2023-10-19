@@ -1,4 +1,4 @@
-# Food Blog Web-based app using ASP.NET
+# Web-based Food Blog app using ASP.NET
 
 This MVC ASP.NET web app is developed to add recipes by registering and creating your food blog. Features of the web application are controlled according to the role of the logged user. PostgreSQL is used as the database.
 
