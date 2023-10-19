@@ -1,0 +1,75 @@
+﻿@using BlogApp.Models
+@using BlogApp.Services
+@using BlogApp.Enum
+@using Microsoft.AspNetCore.Identity;
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+
+
+
+@inject UserManager<BlogUser> userManager
+@inject IImageService imageService
+
+@model IPagedList<Blog>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="row">
+    @foreach (var blog in Model)
+    {
+
+
+        <div class="col-sm-2 col-lg-4">
+            <div class="card border-dark">
+                <div class="card-body text-center">
+                    <div class="bg-warning">
+                        <hr class="card-hr" />
+                        <h5 class="card-title">@blog.Name</h5>
+                        <hr class="card-hr" />
+                    </div>
+                    <div>
+                        <p class="card-text">@blog.BlogUser.FullName</p>
+                    </div>
+
+                    <br />
+                    <div class="text-center">
+                        <a class="btn btn-dark btn-sm btn-block mb-2" asp-controller="Posts" asp-action="BlogPostIndex" asp-route-id="@blog.ID">View Channel</a>
+                    </div>
+
+
+                </div>
+                <img class="card-img-bottom" src="@imageService.DecodeImage(blog.ImageData,  blog.ConentType)" />
+            </div>
+
+        </div>
+    }
+</div>
+
+@*@section Scripts{
+        <script>$(" ")
+        </script>
+    }*@
+
+<div class="row">
+    <div class="col h3">
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col">
+
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }),
+            new PagedListRenderOptions
+            {
+                LiElementClasses = new string[] { "page-item" },
+                PageClasses = new string[] { "page-link" }
+
+            })
+    </div>
+</div>

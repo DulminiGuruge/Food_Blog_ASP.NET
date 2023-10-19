@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/projectbundle/BlogApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlogApp.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/css/Custom.css",
+      "PackagePath": "staticwebassets/css/Custom.css"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/css/summernote-bs4.min.css",
+      "PackagePath": "staticwebassets/css/summernote-bs4.min.css"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/about-bg.jpg",
+      "PackagePath": "staticwebassets/images/about-bg.jpg"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/contact-bg.jpg",
+      "PackagePath": "staticwebassets/images/contact-bg.jpg"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/home-bg.jpg",
+      "PackagePath": "staticwebassets/images/home-bg.jpg"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/post-bg.jpg",
+      "PackagePath": "staticwebassets/images/post-bg.jpg"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/post-sample-image.jpg",
+      "PackagePath": "staticwebassets/images/post-sample-image.jpg"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/js/Custom.js",
+      "PackagePath": "staticwebassets/js/Custom.js"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/js/scripts.js",
+      "PackagePath": "staticwebassets/js/scripts.js"
+    },
+    {
+      "Id": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/js/summernote-bs4.min.js",
+      "PackagePath": "staticwebassets/js/summernote-bs4.min.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BlogApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.BlogApp.props",
+      "PackagePath": "build\\BlogApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BlogApp.props",
+      "PackagePath": "buildMultiTargeting\\BlogApp.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.BlogApp.props",
+      "PackagePath": "buildTransitive\\BlogApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
