@@ -39,8 +39,12 @@ namespace BlogApp.Models
 
 		public string? Slug { get; set; }
 
-		public byte[]? ImageData { get; set; }
-		public string? ContentType { get; set; }
+        [Display(Name = "Post Image")]
+        public byte[]? ImageData { get; set; } // type byte array to store image
+
+        [Display(Name = "Image Type")]
+        public string? ContentType { get; set; }
+      
 
 		[NotMapped]//property excluded from database mapping
 		public IFormFile? Image { get; set; }

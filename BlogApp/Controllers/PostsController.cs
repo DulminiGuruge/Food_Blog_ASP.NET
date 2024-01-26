@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Identity;
 using BlogApp.Enum;
 using X.PagedList;
 using BlogApp.Services.ViewModels;
+using System.Reflection.Metadata;
 
 namespace BlogApp.Controllers
 {
@@ -140,6 +141,9 @@ namespace BlogApp.Controllers
 
                 post.ImageData = await _imageService.EncodeImageAsync(post.Image);
                 post.ContentType = _imageService.ContentType(post.Image);
+
+
+         
 
 
 

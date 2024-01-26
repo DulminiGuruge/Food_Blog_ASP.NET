@@ -44,9 +44,10 @@
         {
             <tr>
                 <td>
-                    @*<img src="@imageService.DecodeImage(item.ImageData, item.ContentType)" />*@
                     <img class="img-fluid" width="200px" src="@imageService.DecodeImage(item.ImageData,item.ContentType)" />
+                    @*@Html.DisplayFor(modelItem => item.ImageData)*@
                 </td>
+         
 
                 <td>
                     @Html.DisplayFor(modelItem => item.Title)
@@ -59,8 +60,8 @@
                     @Html.DisplayFor(modelItem => item.Blog.Description)
                 </td>
                 @*<td>
-                        @Html.DisplayFor(modelItem => item.BlogUser.Id)
-                    </td>*@
+            @Html.DisplayFor(modelItem => item.BlogUser.Id)
+        </td>*@
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

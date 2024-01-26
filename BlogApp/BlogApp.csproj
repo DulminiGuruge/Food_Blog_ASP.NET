@@ -16,6 +16,9 @@
     <None Remove="Services\ViewModels\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="wwwroot\js\summernote.js" />
+  </ItemGroup>
+  <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
 
@@ -35,6 +38,8 @@
     <PackageReference Include="X.PagedList" Version="8.4.7" />
     <PackageReference Include="X.PagedList.Mvc.Core" Version="8.4.7" />
     <PackageReference Include="X.PagedList.Web.Common" Version="8.0.7" />
+    <PackageReference Include="Azure.Core" Version="1.36.0" />
+    <PackageReference Include="Azure.Identity" Version="1.10.4" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,5 +55,6 @@
     <Content Remove="wwwroot\css\" />
     <Content Remove="wwwroot\js\" />
     <Content Remove="wwwroot\images\" />
+    <Content Remove="wwwroot\js\summernote.js" />
   </ItemGroup>
 </Project>

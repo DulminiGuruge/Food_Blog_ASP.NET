@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "va/6HfE6Z27dJU1moXRbuUWURDeCMxP/dByRrG24y1A=",
+  "Hash": "BWpq5YfY0qA83/KZ5uVknz6v9EK4PLeKV4GXwnR5gng=",
   "Source": "BlogApp",
   "BasePath": "_content/BlogApp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BlogApp/wwwroot",
       "Source": "BlogApp",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "/Users/dulminiguruge/.nuget/packages/microsoft.aspnetcore.identity.ui/7.0.5/staticwebassets/V5/lib/jquery/LICENSE.txt"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/bundle/BlogApp.styles.css",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/bundle/BlogApp.styles.css",
       "SourceId": "BlogApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/bundle/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "BlogApp.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/bundle/BlogApp.styles.css"
+      "OriginalItemSpec": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/bundle/BlogApp.styles.css"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/projectbundle/BlogApp.bundle.scp.css",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/projectbundle/BlogApp.bundle.scp.css",
       "SourceId": "BlogApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/projectbundle/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "BlogApp.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/projectbundle/BlogApp.bundle.scp.css"
+      "OriginalItemSpec": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/obj/Debug/net7.0/scopedcss/projectbundle/BlogApp.bundle.scp.css"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/.DS_Store",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/.DS_Store",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/css/Custom.css",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/css/Custom.css",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "css/Custom.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot/css/Custom.css"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/css/styles.css",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/css/styles.css",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot/css/styles.css"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/css/summernote-bs4.min.css",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/css/summernote-bs4.min.css",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "css/summernote-bs4.min.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot/css/summernote-bs4.min.css"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/favicon.ico",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/favicon.ico",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/about-bg.jpg",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/images/about-bg.jpg",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "images/about-bg.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot/images/about-bg.jpg"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/contact-bg.jpg",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/images/contact-bg.jpg",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "images/contact-bg.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot/images/contact-bg.jpg"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/home-bg.jpg",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/images/home-bg.jpg",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "images/home-bg.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot/images/home-bg.jpg"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/post-bg.jpg",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/images/post-bg.jpg",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "images/post-bg.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot/images/post-bg.jpg"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/images/post-sample-image.jpg",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/images/post-sample-image.jpg",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "images/post-sample-image.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot/images/post-sample-image.jpg"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/js/Custom.js",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/js/Custom.js",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "js/Custom.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot/js/Custom.js"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/js/scripts.js",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/js/scripts.js",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "js/scripts.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot/js/scripts.js"
     },
     {
-      "Identity": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/js/summernote-bs4.min.js",
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/js/summernote-bs4.min.js",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dulminiguruge/Downloads/FoodieThoughts/BlogApp/wwwroot/",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
       "BasePath": "_content/BlogApp",
       "RelativePath": "js/summernote-bs4.min.js",
       "AssetKind": "All",
@@ -1290,6 +1290,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/summernote-bs4.min.js"
+    },
+    {
+      "Identity": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/js/summernote.css",
+      "SourceId": "BlogApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dulminiguruge/Documents/myprojects/FoodieThoughts/BlogApp/wwwroot/",
+      "BasePath": "_content/BlogApp",
+      "RelativePath": "js/summernote.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/summernote.css"
     }
   ]
 }

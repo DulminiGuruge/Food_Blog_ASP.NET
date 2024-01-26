@@ -9,11 +9,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace BlogApp.Data.Migrations
+namespace BlogApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230509183828_004")]
-    partial class _004
+    [Migration("20240125194507_Initialmigration")]
+    partial class Initialmigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -131,7 +131,6 @@ namespace BlogApp.Data.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("TwitterUrl")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("character varying(100)");
 
@@ -227,8 +226,8 @@ namespace BlogApp.Data.Migrations
 
                     b.Property<string>("Content")
                         .IsRequired()
-                        .HasMaxLength(75)
-                        .HasColumnType("character varying(75)");
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
 
                     b.Property<string>("ContentType")
                         .HasColumnType("text");
@@ -271,11 +270,6 @@ namespace BlogApp.Data.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ID"));
 
                     b.Property<string>("BlogUserId")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("PostID")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int?>("PostId")
@@ -480,9 +474,7 @@ namespace BlogApp.Data.Migrations
                 {
                     b.HasOne("BlogApp.Models.BlogUser", "BlogUser")
                         .WithMany()
-                        .HasForeignKey("BlogUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("BlogUserId");
 
                     b.HasOne("BlogApp.Models.Post", "Post")
                         .WithMany("Tags")

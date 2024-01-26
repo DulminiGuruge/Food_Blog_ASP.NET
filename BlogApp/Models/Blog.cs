@@ -30,6 +30,7 @@ namespace BlogApp.Models
         [Display(Name = "Updated Date")]
         public DateTime? Updated { get; set; }//nullable datetime field to see when updtaed
 
+
         [Display(Name = "Blog Image")]
         public byte[]? ImageData { get; set; } // type byte array to store image
 

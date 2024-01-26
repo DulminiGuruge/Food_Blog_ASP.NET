@@ -20,9 +20,9 @@
                 <select asp-for="BlogId" class="form-control" asp-items="ViewBag.BlogId"></select>
             </div>
             @*<div class="form-group">
-                    <label asp-for="BlogUserId" class="control-label"></label>
-                    <select asp-for="BlogUserId" class ="form-control" asp-items="ViewBag.BlogUserId"></select>
-                </div>*@
+            <label asp-for="BlogUserId" class="control-label"></label>
+            <select asp-for="BlogUserId" class ="form-control" asp-items="ViewBag.BlogUserId"></select>
+        </div>*@
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
@@ -39,28 +39,29 @@
                 <span asp-validation-for="Content" class="text-danger"></span>
             </div>
             @*<div class="form-group">
-                    <label asp-for="Created" class="control-label"></label>
-                    <input asp-for="Created" class="form-control" />
-                    <span asp-validation-for="Created" class="text-danger"></span>
-                </div>
-                <div class="form-group">
-                    <label asp-for="Updated" class="control-label"></label>
-                    <input asp-for="Updated" class="form-control" />
-                    <span asp-validation-for="Updated" class="text-danger"></span>
-                </div>*@
+            <label asp-for="Created" class="control-label"></label>
+            <input asp-for="Created" class="form-control" />
+            <span asp-validation-for="Created" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Updated" class="control-label"></label>
+            <input asp-for="Updated" class="form-control" />
+            <span asp-validation-for="Updated" class="text-danger"></span>
+        </div>*@
             <div class="form-group">
                 <label asp-for="ReadyStaus" class="control-label"></label>
                 <select asp-for="ReadyStaus" asp-items="@Html.GetEnumSelectList<ReadyStatus>()" class="form-control"></select>
                 <span asp-validation-for="ReadyStaus" class="text-danger"></span>
             </div>
             @*<div class="form-group">
-                    <label asp-for="Slug" class="control-label"></label>
-                    <input asp-for="Slug" class="form-control" />
-                    <span asp-validation-for="Slug" class="text-danger"></span>
-                </div>*@
+            <label asp-for="Slug" class="control-label"></label>
+            <input asp-for="Slug" class="form-control" />
+            <span asp-validation-for="Slug" class="text-danger"></span>
+        </div>*@
+        
             <div class="form-group">
                 <label asp-for="Image" class="control-label"></label>
-                <input type="file" asp-for="Image" class="form-control" />
+                <input type="file" asp-for="Image" class="form-control" accept=".jpg,.png,.gif,.jpeg" />
                 <span asp-validation-for="Image" class="text-danger"></span>
             </div>
 
@@ -104,10 +105,10 @@
                 </div>
             </div>
             @*<div class="form-group">
-                    <label asp-for="ContentType" class="control-label"></label>
-                    <input asp-for="ContentType" class="form-control" />
-                    <span asp-validation-for="ContentType" class="text-danger"></span>
-                </div>*@
+            <label asp-for="ContentType" class="control-label"></label>
+            <input asp-for="ContentType" class="form-control" />
+            <span asp-validation-for="ContentType" class="text-danger"></span>
+        </div>*@
             <div class="form-group">
                 <button type="submit" value="Create" class="btn btn-sm btn-dark btn-block">Create</button>
             </div>
@@ -125,9 +126,10 @@
 @section Scripts{
 
 
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.js"></script>
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.js"></script>
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-bs4.min.css" rel="stylesheet">*@
     <!--This is for sweet alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
